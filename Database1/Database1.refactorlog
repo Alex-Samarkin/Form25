@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Operations Version="1.0" xmlns="http://schemas.microsoft.com/sqlserver/dac/Serialization/2012/02">
+  <Operation Name="Rename Refactor" Key="e1bf2b89-2393-4ff4-a147-45afb0efa28c" ChangeDateTime="03/11/2020 23:20:26">
+    <Property Name="ElementName" Value="[dbo].[Врачи].[Телефон]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Врачи]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Телефон основной" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="6d6286ae-95b0-46f5-b497-f7e021c046d4" ChangeDateTime="03/11/2020 23:30:53">
+    <Property Name="ElementName" Value="[dbo].[Пациенты].[Субъект]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Пациенты]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Субъект РФ" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="80aea429-6505-4006-aef4-5e4d2128419c" ChangeDateTime="03/11/2020 23:35:36">
+    <Property Name="ElementName" Value="[dbo].[Страховые организации].[Бридическое название]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Страховые организации]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Юридическое название" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="90cbcaea-e4a4-4483-951b-4fb76137a1cb" ChangeDateTime="03/11/2020 23:36:38">
+    <Property Name="ElementName" Value="[dbo].[Страховые организации].[реквизиты]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Страховые организации]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Реквизиты" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="f4739b46-0c8e-4a5e-acb2-48dd13b8d654" ChangeDateTime="03/11/2020 23:47:11">
+    <Property Name="ElementName" Value="[dbo].[Диспансерное наблюдение].[даиа начала]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Диспансерное наблюдение]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Дата начала" />
+  </Operation>
+  <Operation Name="Rename Refactor" Key="012f0cc3-9941-4989-8c32-bf97c58e1bda" ChangeDateTime="03/11/2020 23:47:43">
+    <Property Name="ElementName" Value="[dbo].[Диспансерное наблюдение].[Код ЬЛБ]" />
+    <Property Name="ElementType" Value="SqlSimpleColumn" />
+    <Property Name="ParentElementName" Value="[dbo].[Диспансерное наблюдение]" />
+    <Property Name="ParentElementType" Value="SqlTable" />
+    <Property Name="NewName" Value="Код МКБ" />
+  </Operation>
+</Operations>
